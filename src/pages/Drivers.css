@@ -1,0 +1,103 @@
+@import url('./Dashboard.css');
+@import url('./FleetManagement.css');
+
+.page-placeholder {
+  background: white;
+  padding: 80px 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.page-placeholder h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #00c853;
+}
+
+.page-placeholder p {
+  font-size: 16px;
+  color: #666;
+}
+.driver-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.driver-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease;
+}
+
+.driver-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.driver-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.driver-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.driver-header p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.driver-status {
+  background: #e8f5e9;
+  color: #00c853;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.driver-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.metric-label {
+  font-size: 12px;
+  color: #888;
+  display: block;
+}
+
+.metric-value {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.green {
+  color: #00c853;
+}
+
+.eco-bar {
+  height: 6px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.eco-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00c853, #4caf50);
+}
+

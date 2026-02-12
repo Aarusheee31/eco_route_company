@@ -1,0 +1,99 @@
+@import url('./Drivers.css');
+
+.date-range {
+  padding: 10px 16px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+}
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.analytics-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
+}
+
+.analytics-card h3 {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chart-placeholder {
+  height: 220px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e8f5e9, #f1f8f4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00c853;
+  font-weight: 500;
+}
+
+.advanced-analytics {
+  margin-top: 40px;
+  padding: 40px;
+  background: #f9fafb;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.advanced-analytics h2 {
+  color: #00c853;
+  margin-bottom: 10px;
+}
+.dummy-chart {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.trend-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.trend-row span:first-child {
+  width: 120px;
+}
+
+.trend-row span:last-child {
+  width: 70px;
+  text-align: right;
+}
+
+.trend-bar {
+  height: 10px;
+  flex: 1;
+  background: linear-gradient(90deg, #00c853, #69f0ae);
+  border-radius: 6px;
+}
+
+.trend-bar.green {
+  background: linear-gradient(90deg, #00c853, #69f0ae);
+}
+
+.trend-bar.orange {
+  background: linear-gradient(90deg, #ff9800, #ffc107);
+}
+
+.trend-bar.blue {
+  background: linear-gradient(90deg, #2196f3, #64b5f6);
+}
+
+.trend-bar.purple {
+  background: linear-gradient(90deg, #9c27b0, #ce93d8);
+}

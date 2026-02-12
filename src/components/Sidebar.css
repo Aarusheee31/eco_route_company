@@ -1,0 +1,57 @@
+.sidebar-nav {
+  background: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.company-header {
+  padding: 25px 20px;
+  background: linear-gradient(135deg, #00c853 0%, #00e676 100%);
+}
+
+.company-logo {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.nav-menu {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.nav-item {
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background: rgba(255,255,255,0.05);
+  color: white;
+}
+
+.nav-item.active {
+  background: rgba(0, 200, 83, 0.15);
+  color: #00e676;
+  border-right: 3px solid #00e676;
+}
+
+.nav-icon {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+}
