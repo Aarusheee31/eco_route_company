@@ -16,7 +16,7 @@ async def get_elevations(coordinates: List[List[float]]) -> List[float]:
     """
     url = "https://api.open-elevation.com/api/v1/lookup"
     
-    # Convert to lat,lon format for Open-Elevation
+    
     locations = [{"latitude": coord[1], "longitude": coord[0]} for coord in coordinates]
     
     payload = {"locations": locations}
@@ -30,5 +30,5 @@ async def get_elevations(coordinates: List[List[float]]) -> List[float]:
             return [point["elevation"] for point in data["results"]]
         except Exception as e:
             print(f"Elevation error: {e}")
-            # Return flat terrain as fallback
+            
             return [0.0] * len(coordinates)

@@ -14,7 +14,7 @@ async def geocode_location(location: str) -> Optional[Tuple[float, float]]:
     
     async with httpx.AsyncClient() as client:
         try:
-            # ArcGIS generally doesn't require complex User-Agents
+            
             response = await client.get(url, params=params, timeout=10.0)
             
             if response.status_code != 200:
@@ -25,7 +25,7 @@ async def geocode_location(location: str) -> Optional[Tuple[float, float]]:
             
             if data and data.get("candidates"):
                 location_data = data["candidates"][0]["location"]
-                # ArcGIS returns x (lon) and y (lat)
+                
                 lat, lon = location_data["y"], location_data["x"]
                 print(f"Successfully geocoded '{location}' to ({lat}, {lon})")
                 return (float(lat), float(lon))

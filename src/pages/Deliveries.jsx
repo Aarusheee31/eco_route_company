@@ -45,8 +45,8 @@ function Deliveries() {
       <div className="top-bar">
         <h1 className="page-title">Deliveries</h1>
         <div className="top-actions">
-          <input type="text" className="search-box" placeholder="🔍 Search deliveries..." />
-          <button className="action-btn">📅 View Calendar</button>
+          <input type="text" className="search-box" placeholder=" Search deliveries..." />
+          <button className="action-btn"> View Calendar</button>
           <button className="action-btn primary">+ New Delivery</button>
         </div>
       </div>
@@ -58,7 +58,7 @@ function Deliveries() {
             <div className="stat-value">247</div>
           </div>
           <div className="stat-card">
-            <div className="stat-icon stat-blue">🚀</div>
+            <div className="stat-icon stat-blue">🚛</div>
             <div className="stat-label">In Transit</div>
             <div className="stat-value">84</div>
           </div>

@@ -5,21 +5,21 @@ function Sidebar() {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', icon: '📊', label: 'Dashboard' },
-    // Add Plan Route here so it's part of the main navigation list
-    { path: '/plan-route', icon: '📍', label: 'Plan Route' }, 
-    { path: '/fleet', icon: '🚛', label: 'Fleet Management' },
-    { path: '/drivers', icon: '👥', label: 'Drivers' },
-    { path: '/deliveries', icon: '📦', label: 'Deliveries' },
-    { path: '/esg-reports', icon: '🌍', label: 'ESG Reports' },
-    { path: '/analytics', icon: '📈', label: 'Analytics' },
-    { path: '/settings', icon: '⚙️', label: 'Settings' },
+    { path: '/',  label: 'Dashboard' },
+    
+    { path: '/plan-route', label: 'Plan Route' }, 
+    { path: '/fleet',  label: 'Fleet Management' },
+    { path: '/drivers',  label: 'Drivers' },
+    { path: '/deliveries',  label: 'Deliveries' },
+    { path: '/esg-reports',  label: 'ESG Reports' },
+    { path: '/analytics',  label: 'Analytics' },
+    { path: '/settings',  label: 'Settings' },
   ];
 
   return (
     <aside className="sidebar-nav">
       <div className="company-header">
-        <div className="company-logo">🌿 Eco-Route</div>
+        <div className="company-logo"> Eco-Route</div>
         <div className="company-name">Sustainable Transport Solutions</div>
       </div>
 

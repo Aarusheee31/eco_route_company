@@ -49,7 +49,6 @@ const complianceStandards = [
         </div>
         <div className="esg-grid">
 
-  {/* ESG Overview Cards */}
   <div className="esg-card">
     <h3>Total CO₂ Saved</h3>
     <p className="esg-value green">
@@ -98,7 +97,6 @@ const complianceStandards = [
 
 </div>
 
-{/* Compliance Section */}
 <div className="compliance-section">
   <h2>🌍 Compliance Standards</h2>
 

@@ -5,7 +5,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './PlanRoute.css';
 
-// Fix for default marker icons
+
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
@@ -76,7 +76,7 @@ const PlanRoute = () => {
   return (
     <div className="plan-route-container">
       <div className="search-card">
-        <h2>🌿 Eco-Route Planner</h2>
+        <h2> Route Planner</h2>
         <form onSubmit={handleCalculate} autoComplete="off">
           <div className="input-group">
             <label>Starting Point</label>

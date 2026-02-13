@@ -54,7 +54,7 @@ function FleetManagement() {
                 <div className="vehicle-id">
                   <div className="vehicle-icon">🚚</div>
                   <div className="vehicle-info">
-                    <h3>MH-12-AB-567{i}</h3>
+                    <h3>DL-12-AB-567{i}</h3>
                     <p>Heavy Duty Diesel</p>
                   </div>
                 </div>
@@ -64,11 +64,11 @@ function FleetManagement() {
                 <div className="vehicle-metrics">
                   <div className="metric-item">
                     <div className="metric-label">Total Distance</div>
-                    <div className="metric-value">24,840 km</div>
+                    <div className="metric-value">22,880 km</div>
                   </div>
                   <div className="metric-item">
                     <div className="metric-label">CO₂ Saved</div>
-                    <div className="metric-value green">847 kg</div>
+                    <div className="metric-value green">644 kg</div>
                   </div>
                   <div className="metric-item">
                     <div className="metric-label">Fuel Efficiency</div>
@@ -76,7 +76,7 @@ function FleetManagement() {
                   </div>
                   <div className="metric-item">
                     <div className="metric-label">Current Load</div>
-                    <div className="metric-value">8.2 tons</div>
+                    <div className="metric-value">8.4 tons</div>
                   </div>
                 </div>
                 <div className="eco-score-bar">

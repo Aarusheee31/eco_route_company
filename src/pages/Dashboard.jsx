@@ -16,7 +16,7 @@ function Dashboard() {
       </div>
 
       <div className="content-wrapper">
-        {/* Quick Stats */}
+        
         <div className="stats-grid">
           <div className="stat-card">
             <div className="stat-icon stat-green">🚛</div>
@@ -44,16 +44,14 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Main Dashboard Grid */}
+        
         <div className="dashboard-grid">
-          {/* Live Map */}
+          
           <div className="map-section">
             <div className="map-header">
-              <h2 className="map-title">🗺️ Live Fleet Map</h2>
+              <h2 className="map-title"> Live Fleet Map</h2>
               <div className="map-filters">
                 <button className="filter-chip active">All Routes</button>
-                <button className="filter-chip">Eco Routes</button>
-                <button className="filter-chip">Standard</button>
               </div>
             </div>
             <div className="map-view">
@@ -65,7 +63,7 @@ function Dashboard() {
             </div>
           </div>
 
-          {/* Active Routes Panel */}
+          
           <div className="routes-panel">
             <div className="panel-header">
               <h2 className="panel-title">Active Routes</h2>
@@ -78,7 +76,7 @@ function Dashboard() {
                 </div>
                 <div className="route-details">
                   Driver: Rajesh Kumar<br/>
-                  Vehicle: MH-12-AB-5678
+                  Vehicle: DL-12-AB-5678
                   <div className="route-metric">
                     <span className="metric-label">Progress:</span>
                     <span className="metric-value">67%</span>
@@ -97,7 +95,7 @@ function Dashboard() {
                 </div>
                 <div className="route-details">
                   Driver: Amit Sharma<br/>
-                  Vehicle: MH-14-CD-9012
+                  Vehicle: HR-14-CD-9012
                   <div className="route-metric">
                     <span className="metric-label">Progress:</span>
                     <span className="metric-value">42%</span>
@@ -116,7 +114,7 @@ function Dashboard() {
                 </div>
                 <div className="route-details">
                   Driver: Vikram Kumar<br/>
-                  Vehicle: KA-05-GH-7890
+                  Vehicle: HR-05-GH-7890
                   <div className="route-metric">
                     <span className="metric-label">Progress:</span>
                     <span className="metric-value">89%</span>
@@ -135,7 +133,7 @@ function Dashboard() {
         <div className="dashboard-grid">
           <div className="activity-section">
             <div className="activity-header">
-              <h2 className="activity-title">📋 Recent Activity</h2>
+              <h2 className="activity-title"> Recent Activity</h2>
               <button className="action-btn">View All</button>
             </div>
             <div className="activity-feed">

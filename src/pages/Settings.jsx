@@ -6,28 +6,26 @@ function Settings() {
       <div className="top-bar">
         <h1 className="page-title">Settings</h1>
         <div className="top-actions">
-          <button className="action-btn">📥 Import Settings</button>
-          <button className="action-btn primary">💾 Save Changes</button>
+          <button className="action-btn"> Import Settings</button>
+          <button className="action-btn primary"> Save </button>
         </div>
       </div>
       <div className="content-wrapper">
         <div className="settings-nav">
-          <button className="settings-tab active">⚙️ General</button>
-          <button className="settings-tab">🔔 Notifications</button>
-          <button className="settings-tab">🔌 Integrations</button>
-          <button className="settings-tab">👥 Team</button>
-          <button className="settings-tab">💳 Billing</button>
-          <button className="settings-tab">🔐 Security</button>
+          <button className="settings-tab active"> General</button>
+          <button className="settings-tab"> Integrations</button>
+          <button className="settings-tab"> Billing</button>
+          <button className="settings-tab"> Security</button>
         </div>
         <div className="settings-grid">
 
-  {/* General Settings */}
+  
   <div className="settings-card">
     <h3>Company Preferences</h3>
 
     <div className="form-group">
       <label>Company Name</label>
-      <input type="text" defaultValue="Eco-Route Logistics Pvt Ltd" />
+      <input type="text" defaultValue="Biryani Logistics Pvt Ltd" />
     </div>
 
     <div className="form-group">
@@ -48,7 +46,7 @@ function Settings() {
     </div>
   </div>
 
-  {/* Notifications */}
+  
   <div className="settings-card">
     <h3>Notifications</h3>
 
@@ -68,7 +66,7 @@ function Settings() {
     </div>
   </div>
 
-  {/* Team Management */}
+ 
   <div className="settings-card">
     <h3>Team Management</h3>
 
@@ -90,7 +88,7 @@ function Settings() {
     <button className="action-btn">+ Add Team Member</button>
   </div>
 
-  {/* Security */}
+  
   <div className="settings-card">
     <h3>Security</h3>
 

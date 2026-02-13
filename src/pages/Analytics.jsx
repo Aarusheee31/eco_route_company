@@ -12,9 +12,9 @@ function Analytics() {
       <div className="top-bar">
         <h1 className="page-title">Analytics & Insights</h1>
         <div className="top-actions">
-          <span className="date-range">📅 Jan 1 - Feb 11, 2026</span>
-          <button className="action-btn">🔄 Refresh Data</button>
-          <button className="action-btn primary">📥 Export Report</button>
+          <span className="date-range"> Jan 1 - Feb 11, 2026</span>
+          <button className="action-btn">🔄 Refresh </button>
+          <button className="action-btn primary"> Export Report</button>
         </div>
       </div>
       <div className="content-wrapper">
@@ -41,7 +41,7 @@ function Analytics() {
           </div>
         </div>
 
-        {/* Analytics Overview */}
+        
         <div className="stats-grid">
           <div className="stat-card">
             <div className="stat-label">Payload Utilization</div>
@@ -72,7 +72,7 @@ function Analytics() {
           </div>
         </div>
 
-        {/* Chart Section */}
+        
         <div className="analytics-grid">
 
           <div className="analytics-card">
