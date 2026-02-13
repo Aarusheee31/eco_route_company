@@ -147,7 +147,7 @@ function Dashboard() {
                 </div>
               </div>
               <div className="activity-item">
-                <div className="activity-icon blue">🚀</div>
+                <div className="activity-icon blue">🚛</div>
                 <div className="activity-content">
                   <div className="activity-text">
                     <strong>New Route Started</strong> - Delhi → Agra with estimated 14.1 kg savings
@@ -169,7 +169,7 @@ function Dashboard() {
 
           <div className="quick-actions">
             <div className="activity-header">
-              <h2 className="activity-title">⚡ Quick Actions</h2>
+              <h2 className="activity-title"> Quick Actions</h2>
             </div>
             <div className="actions-grid">
               <div className="action-card">
