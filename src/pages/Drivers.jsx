@@ -5,7 +5,7 @@ function Drivers() {
   {
     id: 1,
     name: "Rajesh Kumar",
-    vehicle: "MH-12-AB-5678",
+    vehicle: "UP-12-AB-5678",
     ecoScore: 92,
     deliveries: 148,
     fuelEfficiency: "18.2 km/L",
@@ -15,7 +15,7 @@ function Drivers() {
   {
     id: 2,
     name: "Priya Verma",
-    vehicle: "GJ-01-EF-3456",
+    vehicle: "HR-01-EF-3456",
     ecoScore: 95,
     deliveries: 164,
     fuelEfficiency: "21.3 km/L",
@@ -35,7 +35,7 @@ function Drivers() {
   {
     id: 4,
     name: "Vikram Singh",
-    vehicle: "KA-05-GH-7890",
+    vehicle: "HR-05-GH-7890",
     ecoScore: 78,
     deliveries: 120,
     fuelEfficiency: "15.9 km/L",

@@ -19,9 +19,9 @@ const complianceStandards = [
       <div className="top-bar">
         <h1 className="page-title">ESG Reports & Compliance</h1>
         <div className="top-actions">
-          <button className="action-btn">📧 Schedule Report</button>
-          <button className="action-btn">💾 Save Template</button>
-          <button className="action-btn primary">📥 Export All</button>
+          <button className="action-btn">Schedule Report</button>
+          <button className="action-btn"> Save Template</button>
+          <button className="action-btn primary">Export All</button>
         </div>
       </div>
       <div className="content-wrapper">
@@ -98,7 +98,7 @@ const complianceStandards = [
 </div>
 
 <div className="compliance-section">
-  <h2>🌍 Compliance Standards</h2>
+  <h2> Compliance Standards</h2>
 
   <div className="compliance-grid">
     {complianceStandards.map((item, index) => (
